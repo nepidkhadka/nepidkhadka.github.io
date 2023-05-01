@@ -2,6 +2,7 @@
 
 @media (min-width: 320px) {
   .container {
+    padding-inline: 2rem;
     max-width: 320px;
     /* border: 2px solid green; */
   }
@@ -10,6 +11,7 @@
 /* XS */
 @media (min-width: 475px) {
   .container {
+    padding-inline: 2rem;
     max-width: 475px;
     /* border: 2px solid green; */
   }
@@ -42,6 +44,7 @@
 /* SM */
 @media (min-width: 640px) {
   .container {
+    padding-inline: 2rem;
     max-width: 640px;
     /* border: 2px solid red; */
   }
@@ -57,11 +60,22 @@
   .line2 {
     width: 30%;
   }
+
+  .experience__clients .experience h4{
+  font-size: 5.5rem;
+}
+
+.experience__clients .clients h4{
+  font-size: 5rem;
+}
+
+
 }
 
 /* MD */
 @media (min-width: 768px) {
   .container {
+    padding-inline: 2rem;
     max-width: 768px;
     /* border: 2px solid blue; */
   }
@@ -73,7 +87,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline: 2rem;
+    /* padding-inline: 2rem; */
     padding-block: 2rem;
   }
 
@@ -149,13 +163,12 @@
   .line2 {
     width: 36%;
   }
-
-
 }
 
 /* XS */
 @media (min-width: 1024px) {
   .container {
+    padding-inline: 2rem;
     max-width: 1024px;
     /* border: 2px solid yellow; */
   }
@@ -190,12 +203,19 @@
     width: 38%;
   }
 
+  .about__me .about__text {
+    font-size: 2rem;
+  }
 
+  .experience__clients p{
+    font-size: 2rem;
+  }
 }
 
 /* XL */
 @media (min-width: 1280px) {
   .container {
+    padding-inline: 2rem;
     max-width: 1280px;
     /* border: 2px solid firebrick; */
   }
@@ -230,7 +250,6 @@
 
   .line2 {
     width: 40%;
-
   }
 
   .line__img {
@@ -254,6 +273,7 @@
 /* 2XL */
 @media (min-width: 1536px) {
   .container {
+    padding-inline: 2rem;
     max-width: 1536px;
     /* border: 2px solid hotpink; */
   }

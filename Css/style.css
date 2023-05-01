@@ -35,7 +35,7 @@ li {
 /* Header Styles Start */
 
 header {
-  height: 100vh;
+  height: auto;
   background: linear-gradient(
       rgba(255, 255, 255, 0.9),
       rgba(255, 255, 255, 0.9)
@@ -54,7 +54,7 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-inline: 2rem;
+  /* padding-inline: 2rem; */
   padding-block: 2rem;
 }
 
@@ -92,7 +92,7 @@ header nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-inline: 2rem;
+  /* padding-inline: 2rem; */
   position: relative;
 }
 
@@ -143,12 +143,11 @@ header nav {
   margin-block: 4rem;
 }
 
-
 .hero__btn #btn2 {
   background: none;
   border: 1px solid var(--clr-dark);
   color: var(--clr-dark);
-  font-size: 1.8rem;  
+  font-size: 1.8rem;
 }
 
 /* HeaderHero Side Text Starts */
@@ -176,10 +175,10 @@ header nav {
 
 /* Header Line Starts */
 .hero__line {
-  background-color: var(--clr-blue);
   position: relative;
   padding-inline: 2rem;
   margin-top: 2rem;
+  min-height: 40px;
 }
 
 .line1 {
@@ -214,4 +213,93 @@ header nav {
 
 .line__img img:hover {
   transform: translateY(0.4rem);
+}
+
+/* About Starts */
+
+.about__me {
+  height: 80vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url(/Images/image_about_bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about__me .about__title {
+  /* padding-inline: 2rem; */
+  padding-block: 2rem;
+  text-align: center;
+  color: var(--clr-dark);
+  font-size: 2.4rem;
+  position: relative;
+}
+
+.about__me .about__title::before {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  height: 0.6rem;
+  background-color: var(--clr-blue);
+  width: 12rem;
+}
+
+.about__me .about__text {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: var(--clr-dark);
+  text-align: justify;
+}
+
+
+/* About Experience & Clients */
+
+.experience__clients{
+  margin-top: 6rem;
+  display: flex;
+  justify-content:space-between;
+  max-width: 450px;
+  margin-inline: auto;
+  background-color: var(--clr-blue);
+  border-radius: 1.5rem;
+  height: 10rem;
+}
+
+.experience__clients .experience{
+  flex-basis: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.experience__clients p{
+  color:whitesmoke;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+
+.experience__clients .experience h4{
+  font-size: 4.5rem;
+}
+
+.experience__clients .clients{
+  flex-basis: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.experience__clients .clients h4{
+  font-size: 4rem;
+}
+
+.experience__clients h4 {
+  color: var(--clr-light);
 }
