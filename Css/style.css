@@ -46,7 +46,7 @@ header {
   background-size: cover;
 }
 
-.header__nav{
+.header__nav {
   display: none;
 }
 
@@ -54,7 +54,7 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding-inline: 5rem; */
+  padding-inline: 2rem;
   padding-block: 2rem;
 }
 
@@ -63,14 +63,7 @@ header nav {
   font-size: 2.1rem;
 }
 
-/* header nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-inline: 5rem;
-  padding-block: 2rem;
-}
-
+/*
 .header__logo {
   font-size: 2.2rem;
   font-weight: 500;
@@ -95,28 +88,29 @@ header nav {
 /* Header Hero Starts */
 
 .header__hero {
+  flex-direction: column-reverse;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-inline: 5rem;
+  padding-inline: 2rem;
   position: relative;
 }
 
 .hero__left {
-  flex-basis: 60%;
+  flex-basis: 100%;
 }
 
 .hero__left h1 {
-  letter-spacing: 0.5rem;
-  font-size: 5rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-size: 2.4rem;
   font-weight: 800;
-  margin-block: 4rem;
+  margin-block: 2rem;
   line-height: 1.4;
 }
 
 .hero__left h1 strong {
-  letter-spacing: 0.7rem;
-  font-size: 5rem;
+  font-size: 2.4rem;
   font-weight: 800;
 }
 
@@ -125,19 +119,15 @@ header nav {
 }
 
 .header__hero .hero__left p {
-  font-size: 2.2rem;
+  text-align: center;
+  font-size: 1.5rem;
   font-weight: 400;
   color: var(--clr-dark);
-  margin-block: 4rem;
-}
-
-.hero__right {
-  flex-basis: 40%;
+  margin-block: 2rem;
 }
 
 .right__img {
-  margin-inline: auto;
-  width: 400px;
+  width: 200px;
 }
 
 .right__img img {
@@ -145,30 +135,26 @@ header nav {
 }
 
 .hero__btn {
-  display: inline-block;
-  margin-block: 1rem;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-block: 4rem;
 }
 
+
 .hero__btn #btn2 {
-  margin-left: 2.5rem;
   background: none;
   border: 1px solid var(--clr-dark);
   color: var(--clr-dark);
+  font-size: 1.8rem;  
 }
 
 /* HeaderHero Side Text Starts */
 
 .hero__sidetext {
-  cursor: pointer;
-  height: 180px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  transition: 0.4s ease-in-out;
+  display: none;
 }
 
 .hero__sidetext:hover {
@@ -190,38 +176,42 @@ header nav {
 
 /* Header Line Starts */
 .hero__line {
+  background-color: var(--clr-blue);
   position: relative;
-  padding-inline: 5rem;
-  margin-top: 5rem;
+  padding-inline: 2rem;
+  margin-top: 2rem;
 }
 
 .line1 {
   position: absolute;
-  width: 34%;
+  left: 1rem;
+  width: 10%;
   height: 0.2rem;
   background: var(--clr-dark);
 }
 
 .line2 {
   position: absolute;
-  right: 0;
-  width: 42%;
+  right: 1rem;
+  width: 10%;
   height: 0.2rem;
   background: var(--clr-dark);
 }
 
-.line__img{
+.line__img {
   position: absolute;
-  left: 40%;
+  left: 50%;
+  transform: translateX(-50%);
   top: -20px;
+  width: 180px;
 }
 
-.line__img img{
-  margin: 0 0.5rem;
-  width: 4rem;
+.line__img img {
+  margin: 0 0.2rem;
+  width: 3.8rem;
   transition: 0.2s ease-in-out;
 }
 
-.line__img img:hover{
+.line__img img:hover {
   transform: translateY(0.4rem);
 }
