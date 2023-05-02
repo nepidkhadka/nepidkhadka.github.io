@@ -218,7 +218,7 @@ header nav {
 /* About Starts */
 
 .about__me {
-  height: 80vh;
+  height: auto;
   background: linear-gradient(
       rgba(255, 255, 255, 0.9),
       rgba(255, 255, 255, 0.9)
@@ -297,9 +297,58 @@ header nav {
 }
 
 .experience__clients .clients h4{
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
 
 .experience__clients h4 {
+  color: var(--clr-light);
+}
+
+
+/* Services I Offer */
+
+.services__offer{
+  margin-top: 10rem;
+  display: flex;
+  /* flex-wrap: wrap;
+  flex-direction: column; */
+  flex-flow: column wrap;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.services__card{
+  margin-bottom: 4rem;
+  background-color:var(--clr-dark);
+  min-height: 250px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.services__card .img__box{
+  width: 50px;
+  margin-inline: auto;
+  min-height: 70px;
+}
+
+.services__card .img__box img{
+  margin-top: 1rem;
+  width: 100%;
+  filter: invert(1);
+}
+
+
+.services__card .title{
+  padding-block: 1rem;
+  background-color: var(--clr-blue);
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-align: center;
+  color: var(--clr-light);
+}
+
+.services__card .desc p{
+  padding: 1rem;
+  text-align: center;
   color: var(--clr-light);
 }

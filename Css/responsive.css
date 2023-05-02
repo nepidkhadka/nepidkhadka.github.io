@@ -66,7 +66,7 @@
 }
 
 .experience__clients .clients h4{
-  font-size: 5rem;
+  font-size: 5.5rem;
 }
 
 
@@ -162,6 +162,15 @@
 
   .line2 {
     width: 36%;
+  }
+
+  .services__offer{
+    flex-direction: row;
+  }
+
+  .services__card{
+    margin-bottom: 4rem;
+  
   }
 }
 
