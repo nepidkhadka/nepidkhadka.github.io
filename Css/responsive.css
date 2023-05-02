@@ -61,15 +61,13 @@
     width: 30%;
   }
 
-  .experience__clients .experience h4{
-  font-size: 5.5rem;
-}
+  .experience__clients .experience h4 {
+    font-size: 5.5rem;
+  }
 
-.experience__clients .clients h4{
-  font-size: 5.5rem;
-}
-
-
+  .experience__clients .clients h4 {
+    font-size: 5.5rem;
+  }
 }
 
 /* MD */
@@ -103,7 +101,7 @@
   }
 
   .header__nav li {
-    margin-right: 4rem;
+    margin-left: 4rem;
   }
 
   .hero__left {
@@ -164,14 +162,18 @@
     width: 36%;
   }
 
-  .services__offer{
+  .services__offer {
     flex-direction: row;
   }
 
-  .services__card{
+  .services__card {
     margin-bottom: 4rem;
-  
   }
+
+  .skils__content{
+    flex-flow: row wrap;
+  }
+  
 }
 
 /* XS */
@@ -216,9 +218,19 @@
     font-size: 2rem;
   }
 
-  .experience__clients p{
+  .experience__clients p {
     font-size: 2rem;
   }
+
+  .skills .skills__text {
+    font-size: 2rem;
+  }
+
+  .skils__content{
+  
+    gap: 4rem;
+  }
+
 }
 
 /* XL */
