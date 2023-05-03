@@ -267,7 +267,24 @@ header nav {
   background-color: var(--clr-blue);
   border-radius: 1.5rem;
   height: 10rem;
+  /* position: relative; */
 }
+
+/* .experience__clients::after{
+  text-align: center;
+  color: var(--clr-light);
+  border-radius: 2rem;
+  content: "My Services";
+  position: absolute;
+  bottom: -60px;
+  padding-block: 1rem;
+  left:50%;
+  translate: -50%;
+  background: var(--clr-dark);
+  height: 40px;
+  width: 30%;
+
+} */
 
 .experience__clients .experience {
   flex-basis: 40%;
