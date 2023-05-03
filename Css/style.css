@@ -448,12 +448,19 @@ header nav {
 
 .projects__content {
   margin-top: 6rem;
+  display: flex;
+  /* gap: 8rem; */
+  gap: 4rem;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .projects__content .projects__card {
   border-radius: 2rem;
   height: 350px;
-  width: 300px;
+  /* width: 300px; */
+  width: 280px;
   background: var(--clr-light);
   box-shadow: 0px 10px 20px 11px rgba(0, 0, 0, 0.1);
 }
@@ -513,7 +520,8 @@ header nav {
 .projects__content .projects__card .bottom p{
   display: inline-block;
   font-weight: 400;
-  margin: 1.8rem;
+  /* margin: 1.8rem; */
+  margin: 1.4rem;
   padding: 0.5rem;
   background: #ebebeb;
   border-radius: 1rem;

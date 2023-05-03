@@ -39,6 +39,18 @@
   .line2 {
     width: 25%;
   }
+
+  .projects__content {
+    gap: 8rem;
+  }
+
+  .projects__content .projects__card {
+    width: 300px;
+  }
+
+  .projects__content .projects__card .bottom p {
+    margin: 1.8rem;
+  }
 }
 
 /* SM */
@@ -170,10 +182,13 @@
     margin-bottom: 4rem;
   }
 
-  .skils__content{
+  .skils__content {
     flex-flow: row wrap;
   }
-  
+
+  .projects__content {
+    flex-flow: row wrap;
+  }
 }
 
 /* XS */
@@ -229,7 +244,6 @@
   .projects__text {
     font-size: 2rem;
   }
-
 }
 
 /* XL */
