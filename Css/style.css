@@ -365,7 +365,6 @@ header nav {
   color: var(--clr-light);
 }
 
-
 /* Skills  */
 
 .skills {
@@ -387,8 +386,9 @@ header nav {
   text-align: justify;
 }
 
-.skils__content{
+.skils__content {
   margin-top: 6rem;
+  margin-bottom: 4rem;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -396,33 +396,125 @@ header nav {
   justify-content: space-evenly;
 }
 
-.skills__card{
+.skills__card {
   height: 200px;
   width: 200px;
   background: var(--clr-dark);
   border-radius: 10px;
 }
 
-.skills__card .skills__img{
+.skills__card .skills__img {
   margin-top: 1.5rem;
   margin-inline: auto;
   width: 120px;
 }
 
-.skills__card .skills__img img{
+.skills__card .skills__img img {
   width: 100%;
   height: 100%;
 }
 
-.skills__desc{
+.skills__desc {
   height: 4rem;
   width: 100%;
 }
 
-.skills__desc h4{
+.skills__desc h4 {
   font-size: 2.5rem;
   color: var(--clr-light);
   text-align: center;
 }
 
+/* Projects */
 
+.projects {
+  height: auto;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url(/Images/image_about_bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projects__text {
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  color: var(--clr-dark);
+  text-align: justify;
+}
+
+.projects__content {
+  margin-top: 6rem;
+}
+
+.projects__content .projects__card {
+  border-radius: 2rem;
+  height: 350px;
+  width: 300px;
+  background: var(--clr-light);
+  box-shadow: 0px 10px 20px 11px rgba(0, 0, 0, 0.1);
+}
+
+.projects__content .projects__card .top {
+  padding: 2rem;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projects__content .projects__card .top img {
+  width: 30px;
+  height: auto;
+}
+
+.projects__content .projects__card .side__img img {
+  margin-left: 1rem;
+  width: 30px;
+  height: auto;
+}
+
+.projects__content .projects__card .middle__title{
+  height: 45px;
+}
+
+.projects__content .projects__card .middle__title h4 {
+  height: 100%;
+  color: var(--clr-light);
+  background: var(--clr-blue);
+  font-size: 1.8rem;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+.projects__content .projects__card .middle__img{
+  margin-inline: auto;
+  width: inherit;
+  height: 180px;
+}
+
+.projects__content .projects__card .middle__img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+}
+
+.projects__content .projects__card .bottom{
+  height: auto;
+  width: inherit;
+}
+
+.projects__content .projects__card .bottom p{
+  display: inline-block;
+  font-weight: 400;
+  margin: 1.8rem;
+  padding: 0.5rem;
+  background: #ebebeb;
+  border-radius: 1rem;
+}
