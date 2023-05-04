@@ -40,16 +40,13 @@
     width: 25%;
   }
 
-  .projects__content {
-    gap: 8rem;
-  }
-
   .projects__content .projects__card {
     width: 300px;
   }
 
-  .projects__content .projects__card .bottom p {
-    margin: 1.8rem;
+  .skils__content {
+
+    gap: 6rem;
   }
 }
 
@@ -244,6 +241,16 @@
   .projects__text {
     font-size: 2rem;
   }
+
+  .projects__content .projects__card .middle__img:hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    translate: -50% -50%;
+    height: auto;
+  }
+  
 }
 
 /* XL */
