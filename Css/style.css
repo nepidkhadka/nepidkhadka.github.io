@@ -452,6 +452,7 @@ header nav {
   margin-inline: auto;
   max-width: 120rem;
   margin-top: 6rem;
+  margin-bottom: 8rem;
   display: flex;
   gap: 4rem;
   flex-flow: column wrap;
@@ -536,3 +537,110 @@ header nav {
   background: #ebebeb;
   border-radius: 1rem;
 }
+
+
+/* Contact */
+
+.contact{
+  background: var(--clr-dark);
+  color: var(--clr-light);
+}
+
+/* .contact__title{
+  color: inherit;
+  font-size: 4rem;
+  padding: 2rem;
+  font-weight: 600;
+  text-align: center;
+} */
+
+.contact__text{
+  margin-top: 4rem;
+}
+
+.contact__content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr ;
+}
+
+.contact__content .left  {
+  margin-top: 1rem;
+  padding: 2rem;
+}
+
+.contact__content .left .left__title {
+  font-size: 4rem;
+}
+
+.contact__content .left .left__title span {
+  color: var(--clr-blue);
+}
+
+.contact__content .left .contact__text p {
+  font-size: 2.2rem;
+}
+
+.contact__content .left .contact__text h4 {
+  font-size: 2.2rem;
+}
+
+
+
+.contact .contact__content .right .contact__form{
+  margin-inline: auto;
+  padding: 2rem;
+  height: 600px;
+  width: 400px;
+  /* background: #f7a63e; */
+}
+
+.contact .contact__content .right .contact__form label
+{
+  font-size: 1.6rem;
+  font-weight: 600;
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact .contact__content .right .contact__form input  {
+  border: transparent;
+  padding: 1rem;
+  width: 100%;
+  height: 4rem;
+  outline: none;
+}
+
+.contact .contact__content .right .contact__form textarea{
+  border: transparent;
+  padding: 1rem;
+  width: 100%;
+  height: 25rem;
+  outline: none;
+  resize: none;
+}
+
+.contact .contact__content .right .contact__form .sendmsg{
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  color: var(--clr-dark);
+  border: none;
+  background: var(--clr-light);
+  width: 100%;
+  padding: 2rem;
+  cursor: pointer;
+  transition: 0.1s ease;
+}
+
+.contact .contact__content .right .contact__form .sendmsg:hover{
+  color: var(--clr-light);
+  background: transparent;
+  border: 1.5px solid var(--clr-blue);
+  letter-spacing: 0.01rem;
+}
+
+
+
+
+
