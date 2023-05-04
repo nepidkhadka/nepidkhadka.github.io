@@ -46,9 +46,6 @@ header {
   background-size: cover;
 }
 
-.header__nav {
-  display: none;
-}
 
 header nav {
   display: flex;
@@ -61,6 +58,49 @@ header nav {
 .header__nav li a {
   font-weight: 500;
   font-size: 2.1rem;
+}
+
+.mbl__menu{
+  width: 30px;
+  height: 20px;
+  background-image:url("../Images/icon_menu.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.mbl__menu.active{
+  z-index: 12;
+  background-image:url("../Images/close.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: invert(1);
+}
+
+.header__nav {
+  display: none;
+}
+
+.header__nav.active {
+  position: fixed;
+  top: 50px;
+  left: 0px;
+  z-index: 10;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--clr-dark);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+
+
+.header__nav.active li a{
+  color: var(--clr-light);
 }
 
 /*
