@@ -73,11 +73,11 @@
     width: 30%;
   }
 
-  .experience__clients .experience h4 {
+  .experience__clients .experience h2 {
     font-size: 5.5rem;
   }
 
-  .experience__clients .clients h4 {
+  .experience__clients .clients h2 {
     font-size: 5.5rem;
   }
 }

@@ -105,36 +105,11 @@ header nav {
   color: var(--clr-light);
 }
 
-/*
-.header__logo {
-  font-size: 2.2rem;
-  font-weight: 500;
-}
-
-.header__nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-
-.header__nav li a {
-  font-weight: 500;
-  font-size: 2.2rem;
-}
-
-.header__nav li {
-  margin-right: 4rem;
-} */
-
-/* Header Hero Starts */
-
 .header__hero {
   flex-direction: column-reverse;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding-inline: 2rem; */
   position: relative;
 }
 
@@ -174,6 +149,8 @@ header nav {
 
 .right__img img {
   width: 100%;
+  height: 100%;
+
 }
 
 .hero__btn {
@@ -251,6 +228,7 @@ header nav {
   margin: 0 0.2rem;
   width: 3.8rem;
   transition: 0.2s ease-in-out;
+  height: 100%;
 }
 
 .line__img img:hover {
@@ -341,7 +319,7 @@ header nav {
   font-weight: 500;
 }
 
-.experience__clients .experience h4 {
+.experience__clients .experience h2 {
   font-size: 4.5rem;
 }
 
@@ -352,11 +330,11 @@ header nav {
   justify-content: space-evenly;
 }
 
-.experience__clients .clients h4 {
+.experience__clients .clients h2 {
   font-size: 4.5rem;
 }
 
-.experience__clients h4 {
+.experience__clients h2 {
   color: var(--clr-light);
 }
 
