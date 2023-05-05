@@ -11,7 +11,8 @@ let navlinks = document.querySelector(".header__nav");
 mymblmenu.addEventListener("click", openmenu);
 
 function openmenu(){
+    if(screen.width<768){
     mymblmenu.classList.toggle("active");
     navlinks.classList.toggle("active");
+    }
 }
-
