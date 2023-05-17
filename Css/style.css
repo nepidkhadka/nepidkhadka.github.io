@@ -46,7 +46,6 @@ header {
   background-size: cover;
 }
 
-
 header nav {
   display: flex;
   justify-content: space-between;
@@ -60,15 +59,20 @@ header nav {
   font-weight: 500;
 }
 
+.header__logo a:hover {
+  color: var(--clr-blue);
+}
+
 .header__nav li a {
   font-weight: 500;
   font-size: 2.1rem;
+  position: relative;
 }
 
-.mbl__menu{
+.mbl__menu {
   width: 30px;
   height: 20px;
-  background-image:url("../Images/icon_menu.png");
+  background-image: url("../Images/icon_menu.png");
   background-size: 30px;
   background-repeat: no-repeat;
   background-position: center;
@@ -76,9 +80,9 @@ header nav {
   transition: 0.3s ease-in-out;
 }
 
-.mbl__menu.active{
+.mbl__menu.active {
   z-index: 12;
-  background-image:url("../Images/close.png");
+  background-image: url("../Images/close.png");
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: center;
@@ -104,8 +108,7 @@ header nav {
   gap: 1.5rem;
 }
 
-
-.header__nav.active li a{
+.header__nav.active li a {
   color: var(--clr-light);
 }
 
@@ -154,7 +157,6 @@ header nav {
 .right__img img {
   width: 100%;
   height: 100%;
-
 }
 
 .hero__btn {
@@ -163,7 +165,7 @@ header nav {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  margin-block: 4rem; 
+  margin-block: 4rem;
 }
 
 .hero__btn #btn2 {
@@ -280,6 +282,33 @@ header nav {
   text-align: justify;
 }
 
+/* My Services */
+
+.servicesheader {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 450px;
+  margin-inline: auto;
+  /* background-color: var(--clr-blue); */
+  background: linear-gradient(rgba(91, 56, 227, 0.9), rgba(91, 56, 227, 0.9)),
+    url(../Images/icons_service_header.gif);
+  background-size: 200px;
+  background-position: center;
+  border-radius: 1.5rem;
+  height: 10rem;
+}
+
+.servicesheader h2 {
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+.servicesheader h2 {
+  color: var(--clr-light);
+}
+
 /* About Experience & Clients */
 
 .experience__clients {
@@ -294,7 +323,7 @@ header nav {
   /* position: relative; */
 }
 
-/* .experience__clients::after{
+.experience__clients::after {
   text-align: center;
   color: var(--clr-light);
   border-radius: 2rem;
@@ -302,13 +331,12 @@ header nav {
   position: absolute;
   bottom: -60px;
   padding-block: 1rem;
-  left:50%;
+  left: 50%;
   translate: -50%;
   background: var(--clr-dark);
   height: 40px;
   width: 30%;
-
-} */
+}
 
 .experience__clients .experience {
   flex-basis: 40%;
@@ -345,7 +373,7 @@ header nav {
 /* Services I Offer */
 
 .services__offer {
-  margin-top: 10rem;
+  margin-top: 8rem;
   display: flex;
   /* flex-wrap: wrap;
   flex-direction: column; */
@@ -364,7 +392,7 @@ header nav {
 }
 
 .services__card:hover {
- transform:scale(1.01)
+  transform: scale(1.01);
 }
 
 .services__card .img__box {
@@ -434,7 +462,7 @@ header nav {
   border-radius: 10px;
 }
 
-.skills__card:hover{
+.skills__card:hover {
   filter: invert(0.1);
   transform: scale(1.02);
 }
@@ -510,6 +538,10 @@ header nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+#folder_icon :hover {
+  cursor: not-allowed;
 }
 
 .projects__content .projects__card .top img {
@@ -694,10 +726,9 @@ footer .footer__text {
   letter-spacing: 0.1rem;
 }
 
-
 /* Preloader */
 
-.custom-loader{
+.custom-loader {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -706,24 +737,26 @@ footer .footer__text {
   width: 100%;
   height: 100vh;
   display: grid;
-  place-items:center;
+  place-items: center;
 }
 
-.preloader{
-    width:80px;
-    height:80px;
-    border-radius:50%;
-    border:8px solid;
-    border-color:#E4E4ED;
-    border-right-color: #766DF4;
-    animation:preloader 1s infinite ease-in-out;
+.preloader {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 8px solid;
+  border-color: #e4e4ed;
+  border-right-color: #766df4;
+  animation: preloader 1s infinite ease-in-out;
+}
+
+@keyframes preloader {
+  to {
+    transform: rotate(1turn);
   }
-
-  @keyframes preloader {to{transform: rotate(1turn)}}
-
+}
 
 /* Custom Scroll Bar */
-
 
 /* width */
 ::-webkit-scrollbar {
@@ -748,4 +781,4 @@ footer .footer__text {
   background: var(--clr-bg-hover);
 }
 
-  /* END */
+/* END */
