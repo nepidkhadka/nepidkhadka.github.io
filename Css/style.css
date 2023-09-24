@@ -77,7 +77,6 @@ header nav {
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
-  transition: 0.3s ease-in-out;
 }
 
 .mbl__menu.active {
@@ -373,22 +372,23 @@ header nav {
 /* Services I Offer */
 
 .services__offer {
-  margin-top: 8rem;
+  margin-top: 6rem;
   display: flex;
-  /* flex-wrap: wrap;
-  flex-direction: column; */
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
+  gap: 4rem;
 }
 
 .services__card {
-  margin-bottom: 4rem;
   background-color: var(--clr-dark);
   height: 260px;
   width: 250px;
   border-radius: 10px;
   transition: 0.1s linear;
+  flex-grow: 1;
+  margin-bottom: 2rem;
+
 }
 
 .services__card:hover {
@@ -445,17 +445,17 @@ header nav {
 
 .skils__content {
   margin-inline: auto;
-  max-width: 120rem;
   margin-top: 6rem;
   margin-bottom: 4rem;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   align-items: center;
-  gap: 8rem;
+  gap: 4rem;
   justify-content: space-evenly;
 }
 
 .skills__card {
+  flex-grow: 1;
   height: 200px;
   width: 200px;
   background: var(--clr-dark);
@@ -512,18 +512,19 @@ header nav {
 
 .projects__content {
   margin-inline: auto;
-  max-width: 120rem;
-  margin-top: 6rem;
+  /* max-width: 120rem; */
+  margin-top: 8rem;
   margin-bottom: 8rem;
   display: flex;
   gap: 4rem;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: space-evenly;
   position: relative;
 }
 
 .projects__content .projects__card {
+  flex-grow: 1;
   border-radius: 2rem;
   height: 350px;
   width: 280px;
@@ -577,7 +578,7 @@ header nav {
 
 .projects__content .projects__card .middle__img {
   margin-inline: auto;
-  width: inherit;
+  width: 100%;
   height: 180px;
   transition: 0.1s ease-in-out;
 }
@@ -590,7 +591,7 @@ header nav {
 
 .projects__content .projects__card .bottom {
   height: 6rem;
-  width: inherit;
+  max-width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;

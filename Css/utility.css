@@ -29,22 +29,4 @@
 
 /* Main Container */
 
-/* Temporary Classes Starts */
-
-.development__space {
-  height: 40vh;
-}
-
-.under__construction {
-  padding-inline: 5rem;
-  width: 100%;
-  color: var(--clr-light);
-  text-align: center;
-  font-size: 2rem;
-  background: var(--clr-blue);
-  padding: 1rem 0;
-  margin-bottom: 2rem;
-}
-
-/* Temporary Classes Ends */
 

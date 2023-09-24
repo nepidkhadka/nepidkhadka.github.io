@@ -65,6 +65,7 @@
     text-align: justify;
   }
 
+  
   .line1 {
     width: 30%;
   }
@@ -79,6 +80,10 @@
 
   .experience__clients .clients h2 {
     font-size: 5.5rem;
+  }
+
+  .services__offer {
+    margin-top: 8rem;
   }
 }
 
@@ -199,19 +204,14 @@
 
   .services__offer {
     margin-top: 10rem;
-    margin-bottom: 5rem;
-  }
-
-  .services__offer {
-    flex-direction: row;
   }
 
   .services__card {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
 
   .skils__content {
-    flex-flow: row wrap;
+    gap: 6rem;
     margin-bottom: 6rem;
   }
 
@@ -297,6 +297,11 @@
 
   .projects__text {
     font-size: 2rem;
+  }
+
+  .projects__content{
+    margin-top: 10rem;
+
   }
 
   .projects__content .projects__card .middle__img:hover {
