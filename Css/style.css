@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  line-height: calc(1em + 0.5rem);
+  /* line-height: calc(1em + 0.5rem); */
+  line-height: 1.5;
 }
 
 :root {
@@ -261,11 +262,12 @@ header nav {
   color: var(--clr-dark);
   font-size: 2.4rem;
   position: relative;
+  font-weight: 600;
 }
 
 .section__title::before {
   position: absolute;
-  bottom: 8px;
+  bottom: 0px;
   left: 50%;
   transform: translateX(-50%);
   content: "";
@@ -278,7 +280,7 @@ header nav {
   margin-top: 4rem;
   font-size: 1.5rem;
   color: var(--clr-dark);
-  text-align: justify;
+  text-align:center ;
 }
 
 /* My Services */
@@ -382,13 +384,13 @@ header nav {
 
 .services__card {
   background-color: var(--clr-dark);
-  height: 260px;
+  height: 300px;
   width: 250px;
   border-radius: 10px;
   transition: 0.1s linear;
   flex-grow: 1;
   margin-bottom: 2rem;
-
+  padding: 1rem;
 }
 
 .services__card:hover {
@@ -404,6 +406,7 @@ header nav {
 .services__card .img__box img {
   margin-top: 1rem;
   width: 100%;
+  height: 100%;
   filter: invert(1);
 }
 
@@ -440,7 +443,7 @@ header nav {
   margin-top: 4rem;
   font-size: 1.5rem;
   color: var(--clr-dark);
-  text-align: justify;
+  text-align: center;
 }
 
 .skils__content {
@@ -507,7 +510,7 @@ header nav {
   margin-top: 4rem;
   font-size: 1.5rem;
   color: var(--clr-dark);
-  text-align: justify;
+  text-align: center;
 }
 
 .projects__content {

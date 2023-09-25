@@ -62,10 +62,9 @@
   }
 
   .header__hero .hero__left p {
-    text-align: justify;
+    font-size: 2rem;
   }
 
-  
   .line1 {
     width: 30%;
   }
@@ -84,6 +83,26 @@
 
   .services__offer {
     margin-top: 8rem;
+  }
+
+  .about__me .about__text {
+    font-size:2rem;
+  }
+
+  .skills .skills__text {
+    font-size:2rem;
+  }
+
+  .projects__text{
+    font-size:2rem;
+  }
+
+  .services__card .title{
+    font-size: 2rem;
+  }
+
+  .services__card .desc p {
+    font-size: 2rem;
   }
 }
 
@@ -140,6 +159,10 @@
 
   .hero__left h1 strong {
     font-size: 3.2rem;
+  }
+
+  .header__hero .hero__left p {
+    text-align: justify;
   }
 
   .header__nav li a::after {
@@ -268,7 +291,7 @@
   }
 
   .header__hero .hero__left p {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .right__img {
@@ -284,19 +307,30 @@
   }
 
   .about__me .about__text {
-    font-size: 2rem;
+    font-size: 3rem;
+    text-align: justify;
+  }
+
+  .section__title {
+    font-size: 3rem;
+  }
+
+  .section__title::before {
+    width: 16%;
+  }
+
+  .skills .skills__text {
+    font-size: 3rem;
+    text-align: justify;
   }
 
   .experience__clients p {
     font-size: 2rem;
   }
 
-  .skills .skills__text {
-    font-size: 2rem;
-  }
-
   .projects__text {
-    font-size: 2rem;
+    font-size: 3rem;
+    text-align: justify;
   }
 
   .projects__content{
@@ -332,7 +366,7 @@
   }
 
   .header__hero .hero__left p {
-    font-size: 2.2rem;
+    font-size: 3rem;
   }
 
   .hero__btn {
@@ -398,7 +432,7 @@
   }
 
   .header__hero {
-    padding-top: 8rem;
+    padding-top: 4rem;
   }
 
   .hero__left h1 {
