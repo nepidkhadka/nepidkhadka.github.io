@@ -785,4 +785,47 @@ footer .footer__text {
   background: var(--clr-bg-hover);
 }
 
+
+/* ScrollAnimation */
+@media(prefers-reduced-motion) {
+  .hidden{
+    transition: none;
+  }
+}
+.hidden{
+  opacity: 0;
+  filter: blur(3px);
+  transform: translateX(-60%) translateY(-20%);
+  transition: all 1s ease-in-out;
+}
+
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0) translateY(0);
+}
+
+/* Skills Card */
+.skils__content:nth-child(2){
+  transition-delay: 200ms;
+}
+.skils__content:nth-child(3){
+  transition-delay: 400ms;
+}
+.skils__content:nth-child(4){
+  transition-delay: 600ms;
+}
+.skils__content:nth-child(5){
+  transition-delay: 800ms;
+}
+.skils__content:nth-child(6){
+  transition-delay: 1000ms;
+}
+.skils__content:nth-child(7){
+  transition-delay: 1200ms;
+}
+.skils__content:nth-child(8){
+  transition-delay: 1400ms;
+}
+
 /* END */

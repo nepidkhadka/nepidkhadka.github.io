@@ -346,7 +346,7 @@
 /* XL */
 @media (min-width: 1280px) {
   .container {
-    padding-inline: 2rem;
+    padding-inline: 2.5rem;
     max-width: 1280px;
     /* border: 2px solid firebrick; */
   }
@@ -406,6 +406,12 @@
 }
 
 @media screen and (min-width: 1366px) {
+  .container {
+    padding-inline: 4.5rem;
+    max-width: 1366px;
+    /* border: 2px solid hotpink; */
+  }
+
   .hero__line {
     margin-top: 0rem;
   }
@@ -422,7 +428,7 @@
 /* 2XL */
 @media (min-width: 1536px) {
   .container {
-    padding-inline: 2rem;
+    padding-inline: 6rem;
     max-width: 1536px;
     /* border: 2px solid hotpink; */
   }

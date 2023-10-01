@@ -26,3 +26,17 @@ sendbtn.addEventListener("click", ()=>{
 const mydate = document.querySelector(".footer__text span");
 const myyear = new Date().getFullYear();
 mydate.textContent = myyear;
+
+//Animation
+const observer = new IntersectionObserver((entries)=>{
+    entries.forEach((entry)=>{
+        if(entry.isIntersecting){
+            entry.target.classList.add("show")
+        }else{
+            entry.target.classList.remove("show")
+        }
+    })
+})
+
+const hiddensection = document.querySelectorAll(".hidden");
+hiddensection.forEach((e)=>observer.observe(e))
