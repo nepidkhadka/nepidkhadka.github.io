@@ -134,10 +134,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-
-  .header__nav li {
-    margin-left: 4rem;
+    max-width: 55rem;
+    gap: 4rem;
   }
 
   .hero__left {
@@ -307,7 +305,7 @@
   }
 
   .about__me .about__text {
-    font-size: 3rem;
+    font-size: 2.2rem;
     text-align: justify;
   }
 
@@ -320,7 +318,7 @@
   }
 
   .skills .skills__text {
-    font-size: 3rem;
+    font-size: 2.2rem;
     text-align: justify;
   }
 
@@ -329,7 +327,7 @@
   }
 
   .projects__text {
-    font-size: 3rem;
+    font-size: 2.2rem;
     text-align: justify;
   }
 
@@ -366,7 +364,7 @@
   }
 
   .header__hero .hero__left p {
-    font-size: 3rem;
+    font-size: 2.2rem;
   }
 
   .hero__btn {

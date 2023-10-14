@@ -106,6 +106,7 @@ header nav {
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
+ 
 }
 
 .header__nav.active li a {
@@ -168,11 +169,16 @@ header nav {
   margin-block: 4rem;
 }
 
+.hero__btn #btn1 {
+  cursor: pointer;
+}
+
 .hero__btn #btn2 {
   background: none;
   border: 1px solid var(--clr-dark);
   color: var(--clr-dark);
   font-size: 1.8rem;
+  cursor: pointer;
 }
 
 /* HeaderHero Side Text Starts */
@@ -255,6 +261,10 @@ header nav {
   background-size: cover;
 }
 
+.about__text p{
+  margin-bottom: 4rem;
+}
+
 .section__title {
   /* padding-inline: 2rem; */
   padding-block: 2rem;
@@ -302,7 +312,7 @@ header nav {
 }
 
 .servicesheader h2 {
-  font-size: 3.2rem;
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -404,7 +414,6 @@ header nav {
 }
 
 .services__card .img__box img {
-  margin-top: 1rem;
   width: 100%;
   height: 100%;
   filter: invert(1);
@@ -486,7 +495,7 @@ header nav {
   width: 100%;
 }
 
-.skills__desc p {
+.skills__desc h4 {
   font-size: 2.5rem;
   color: var(--clr-light);
   text-align: center;
@@ -567,7 +576,7 @@ header nav {
   height: 45px;
 }
 
-.projects__content .projects__card .middle__title p {
+.projects__content .projects__card .middle__title h4 {
   height: 100%;
   color: var(--clr-light);
   background: var(--clr-blue);
@@ -795,14 +804,14 @@ footer .footer__text {
 .hidden{
   opacity: 0;
   filter: blur(3px);
-  transform: translateX(-60%) translateY(-20%);
+  transform: translateX(-40%) ;
   transition: all 1s ease-in-out;
 }
 
 .show{
   opacity: 1;
   filter: blur(0);
-  transform: translateX(0) translateY(0);
+  transform: translateX(0) ;
 }
 
 /* Skills Card */
