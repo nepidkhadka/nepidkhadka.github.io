@@ -404,7 +404,8 @@ header nav {
 }
 
 .services__card:hover {
-  transform: scale(1.01);
+  filter: invert(0.05);
+  /* transform: scale(1.01); */
 }
 
 .services__card .img__box {
@@ -476,7 +477,7 @@ header nav {
 
 .skills__card:hover {
   filter: invert(0.1);
-  transform: scale(1.02);
+  /* transform: scale(1.02); */
 }
 
 .skills__card .skills__img {
