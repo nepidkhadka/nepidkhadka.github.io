@@ -308,11 +308,11 @@ header nav {
   background-size: 200px;
   background-position: center;
   border-radius: 1.5rem;
-  height: 10rem;
+  height: 6.8rem;
 }
 
 .servicesheader h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -644,8 +644,8 @@ header nav {
 }
 
 .contact__content .left {
-  margin-top: 1rem;
-  padding: 2rem;
+  margin-top: 2rem;
+  padding-block: 2rem;
 }
 
 .contact__content .left .left__title {
@@ -657,6 +657,7 @@ header nav {
 }
 
 .contact__content .left .contact__text p {
+  word-wrap: break-word;
   font-size: 1.8rem;
 }
 
@@ -664,11 +665,15 @@ header nav {
   font-size: 2rem;
 }
 
+.contact__content .right {
+  margin-top: 2rem;
+  padding-block: 2rem;
+}
+
 .contact .contact__content .right .contact__form {
   margin-inline: auto;
-  padding: 2rem;
   height: 600px;
-  width: 300px;
+  width: 100%;
 }
 
 .contact .contact__content .right .contact__form label {

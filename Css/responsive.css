@@ -48,9 +48,9 @@
     gap: 6rem;
   }
 
-  .contact .contact__content .right .contact__form {
+  /* .contact .contact__content .right .contact__form {
     width: 400px;
-  }
+  } */
 }
 
 /* SM */
@@ -86,18 +86,18 @@
   }
 
   .about__me .about__text {
-    font-size:2rem;
+    font-size: 2rem;
   }
 
   .skills .skills__text {
-    font-size:2rem;
+    font-size: 2rem;
   }
 
-  .projects__text{
-    font-size:2rem;
+  .projects__text {
+    font-size: 2rem;
   }
 
-  .services__card .title{
+  .services__card .title {
     font-size: 2rem;
   }
 
@@ -227,6 +227,14 @@
     margin-top: 10rem;
   }
 
+  .servicesheader {
+    height: 9rem;
+  }
+
+  .servicesheader h2 {
+    font-size: 2.5rem;
+  }
+
   .services__card {
     margin-bottom: 3rem;
   }
@@ -242,6 +250,7 @@
 
   .contact__content {
     grid-template-columns: 1fr 1fr;
+    gap: 6rem;
   }
 
   .contact__content .left .left__title {
@@ -331,9 +340,8 @@
     text-align: justify;
   }
 
-  .projects__content{
+  .projects__content {
     margin-top: 10rem;
-
   }
 
   .projects__content .projects__card .middle__img:hover {
