@@ -269,6 +269,10 @@
   footer .footer__text {
     font-size: 1.5rem;
   }
+
+  .btn {
+    padding: 2rem;
+  }
 }
 
 /* XS */
