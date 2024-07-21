@@ -171,7 +171,7 @@ header nav {
   text-align: center;
   font-size: 1.5rem;
   font-weight: 400;
-  color: var(--clr-light);
+  color: rgba(255, 255, 255, 0.8);
   margin-block: 2rem;
 }
 
@@ -316,8 +316,9 @@ header nav {
 .about__me .about__text {
   margin-top: 4rem;
   font-size: 1.5rem;
-  color: var(--clr-light);
+  color: rgba(255, 255, 255, 0.8);
   text-align:center ;
+  line-height: 1.75rem;
 }
 
 /* My Services */
@@ -422,7 +423,7 @@ header nav {
 
 .services__card {
   background-color: var(--clr-dark);
-  height: 300px;
+  height: 310px;
   width: 250px;
   border-radius: 10px;
   transition: 0.1s linear;
@@ -459,9 +460,10 @@ header nav {
 }
 
 .services__card .desc p {
+  font-size: 1.6rem;
   padding: 1rem;
   text-align: center;
-  color: var(--clr-light);
+  color: rgba(255, 255, 255, 0.8)
 }
 
 /* Skills  */
@@ -482,7 +484,7 @@ header nav {
 .skills .skills__text {
   margin-top: 4rem;
   font-size: 1.5rem;
-  color: var(--clr-light);
+  color: rgba(255, 255, 255, 0.8);
   text-align: center;
 }
 
@@ -552,7 +554,7 @@ header nav {
 .projects__text {
   margin-top: 4rem;
   font-size: 1.5rem;
-  color: var(--clr-light);
+  color: rgba(255, 255, 255, 0.8);
   text-align: center;
 }
 

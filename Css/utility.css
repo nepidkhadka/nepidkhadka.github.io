@@ -31,8 +31,8 @@ section{
 .container {
   width: 100%;
   margin-inline: auto;
-  /* padding-right: 1rem; */
-  /* padding-left: 1rem; */
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 

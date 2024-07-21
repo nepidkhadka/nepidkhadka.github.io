@@ -2,7 +2,6 @@
 
 @media (min-width: 320px) {
   .container {
-    padding-inline: 2rem;
     max-width: 320px;
     /* border: 2px solid green; */
   }
@@ -102,7 +101,7 @@
   }
 
   .services__card .desc p {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 
