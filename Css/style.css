@@ -310,7 +310,12 @@ header nav {
   content: "";
   height: 0.6rem;
   background-color: var(--clr-blue);
+  background: linear-gradient(to right, #23106f, #6168f7, #202020, #0c0c0c);
   width: 12rem;
+}
+
+#projects__title::before{
+  background: linear-gradient(to right, #ededed, #9697a8,  #7074c0, #242323,#1b1b1b);
 }
 
 .about__me .about__text {
