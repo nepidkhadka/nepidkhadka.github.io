@@ -16,6 +16,14 @@
   border-radius: 2rem;
 }
 
+/* Section Starts*/
+
+section{
+  padding-block: 2rem;
+}
+
+/* Section Ends*/
+
 /* Button Ends*/
 
 /* Main Container */
@@ -26,4 +34,5 @@
   /* padding-right: 1rem; */
   /* padding-left: 1rem; */
 }
+
 

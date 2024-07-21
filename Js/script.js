@@ -5,14 +5,16 @@ window.addEventListener("load", ()=>{
 })
 
 //Mobile Menu
-let mymblmenu = document.querySelector(".mbl__menu");
+let mymblmenu = document.querySelector(".mbl-menu-icon");
 let navlinks = document.querySelector(".header__nav");
 let sendbtn = document.querySelector(".sendmsg");
+const line = document.querySelectorAll(".line");
 
 mymblmenu.addEventListener("click", openmenu);  
 
 function openmenu(){
     if(screen.width<768){
+    line.forEach(line=>line.classList.toggle("rotate"))
         mymblmenu.classList.toggle("active");
         navlinks.classList.toggle("active");
     }
