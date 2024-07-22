@@ -3,7 +3,7 @@
 @media (min-width: 320px) {
   /* .container {
     /* max-width: 320px; */
-    /* border: 2px solid green; 
+  /* border: 2px solid green; 
   } */
 }
 
@@ -131,6 +131,14 @@
     align-items: center;
     max-width: 55rem;
     gap: 1.8rem;
+  }
+
+  .header__nav.active {
+    position: relative;
+    width: auto;
+    height: auto;
+    background: none;
+    flex-flow: row nowrap;
   }
 
   .hero__left {
@@ -278,13 +286,13 @@
     /* border: 2px solid yellow; */
   }
 
-    /* Section Starts*/
-  
-    section {
-      padding-block: 3rem;
-    }
-  
-    /* Section Ends*/
+  /* Section Starts*/
+
+  section {
+    padding-block: 3rem;
+  }
+
+  /* Section Ends*/
 
   .hero__btn {
     margin-block: 0;
@@ -365,13 +373,13 @@
     /* border: 2px solid firebrick; */
   }
 
-    /* Section Starts*/
-  
-    section {
-      padding-block: 4rem;
-    }
-  
-    /* Section Ends*/
+  /* Section Starts*/
+
+  section {
+    padding-block: 4rem;
+  }
+
+  /* Section Ends*/
 
   .hero__left h1 {
     letter-spacing: 0.5rem;

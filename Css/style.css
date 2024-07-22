@@ -41,7 +41,8 @@ li {
 
 header {
   height: auto;
-  background: linear-gradient(to bottom, #452ea4, #472bb7, #5032c7, #202020, #0c0c0c, #000);
+  /* background: linear-gradient(to bottom, #452ea4, #472bb7, #5032c7, #202020, #0c0c0c, #000); */
+  background: linear-gradient(to bottom, #3a2b79, #372094, #3e2f7a, #202020, #0c0c0c, #000);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -56,8 +57,14 @@ header nav {
 }
 
 .header__logo {
-  font-size: 2rem;
-  font-weight: 500;
+  height: 35px;
+  width: 35px;
+
+  & img {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+  }
 }
 
 .header__logo a:hover {
@@ -277,15 +284,7 @@ header nav {
 /* About Starts */
 
 .about__me {
-  height: auto;
-  /* background: linear-gradient(
-      rgba(255, 255, 255, 0.9),
-      rgba(255, 255, 255, 0.9)
-    ),
-    url(/Images/image_about_bg.svg); */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(to bottom, #000, #202020, #0c0c0c, #000);
 }
 
 .about__text p {
@@ -312,6 +311,7 @@ header nav {
   height: 0.6rem;
   background-color: var(--clr-blue);
   background: linear-gradient(to right, #23106f, #6168f7, #202020, #0c0c0c);
+  background: linear-gradient(to right, #ededed, #9697a8, #7074c0, #242323, #1b1b1b);
   width: 12rem;
 }
 
@@ -471,7 +471,8 @@ header nav {
 
 .skills {
   height: auto;
-  background: linear-gradient(to top, #452ea4, #472bb7, #5032c7, #202020, #0c0c0c, #000);
+  /* background: linear-gradient(to top, #452ea4, #472bb7, #5032c7, #202020, #0c0c0c, #000); */
+  background: linear-gradient(to top, #3a2b79, #372094, #3e2f7a, #202020, #0c0c0c, #000);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -536,7 +537,8 @@ header nav {
 .projects {
   border: none;
   height: auto;
-  background: linear-gradient(to bottom, #452ea4, #472bb7, #5032c7, #202020, #0c0c0c, #000);
+  /* background: linear-gradient(to bottom, #452ea4, #472bb7, #5032c7, #202020, #0c0c0c, #000); */
+  background: linear-gradient(to bottom, #3a2b79, #372094, #3e2f7a, #202020, #0c0c0c, #000);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -576,13 +578,13 @@ header nav {
   border-radius: 10px;
   overflow: hidden;
   transition: all 0.8s ease-in-out;
-  
+
   & img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
-    
+
   }
 }
 
@@ -642,7 +644,7 @@ header nav {
   font-size: 2rem;
   transition: 0.3s ease-in-out;
 
-  &:hover{
+  &:hover {
     opacity: 0.6;
   }
 }
@@ -651,7 +653,7 @@ header nav {
 
 .contact {
   background: var(--clr-dark);
-  background: linear-gradient(to top, #23106f, #202020, #202020, #0c0c0c, #000);
+  background: linear-gradient(to top, #3e2f7a, #202020, #202020, #0c0c0c, #000);
 
   /* border-top: 1px solid rgba(255, 255, 255, 0.2); */
   color: var(--clr-light);
@@ -705,8 +707,11 @@ header nav {
 
 .contact .contact__content .right .contact__form {
   margin-inline: auto;
-  height: 600px;
+  /* height: 600px; */
   width: 100%;
+  padding: 10px;
+  border: 0.2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
 }
 
 .contact .contact__content .right .contact__form label {
@@ -719,7 +724,8 @@ header nav {
 
 .contact .contact__content .right .contact__form input {
   border: transparent;
-  background-color: rgb(255 255 255 / 0.2);
+  background-color: rgb(255 255 255 / 0.1);
+  /* background: rgb(58, 43, 121,); */
   border-radius: 0.5rem;
   padding: 1rem;
   width: 100%;
@@ -728,11 +734,11 @@ header nav {
 }
 
 .contact .contact__content .right .contact__form input:focus {
-  background-color: rgb(255 255 255 / 0.4);
+  background-color: rgb(255, 255, 255, 0.2);
 }
 
 .contact .contact__content .right .contact__form textarea:focus {
-  background-color: rgb(255 255 255 / 0.4);
+  background-color: rgb(255 255 255 / 0.2);
 }
 
 .contact .contact__content .right .contact__form textarea {
@@ -743,33 +749,35 @@ header nav {
   height: 25rem;
   outline: none;
   resize: none;
-  background-color: rgb(255 255 255 / 0.2);
+  background-color: rgb(255 255 255/ 0.1);
   border-radius: 0.5rem;
 }
 
 .contact .contact__content .right .contact__form .sendmsg {
   font-size: 1.6rem;
+  font-weight: 500;
   margin-top: 1rem;
   color: var(--clr-light);
   border-radius: 5px;
-  border: 0.1px solid rgba(255, 255, 255, 0.2);
-  background: whitesmoke;
+  border: 0.1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 1);
   width: 100%;
   padding: 2rem;
   cursor: pointer;
   transition: 0.4s ease;
-  background: linear-gradient(to right, #23106f, #6168f7, #202020, #0c0c0c);
+  background: linear-gradient(to top, #3a2b79, #3e2f7a);
+
 }
 
 .contact .contact__content .right .contact__form .sendmsg:hover {
-  color: var(--clr-light);
   letter-spacing: 0.06rem;
 }
 
 /* Footer */
 
 footer {
-  background: linear-gradient(to top, #23106f, #23106f);
+  /* background: linear-gradient(to top, #3a2b79, #372094, #3e2f7a, #202020, #0c0c0c, #000); */
+  background: linear-gradient(to top, #3a2b79, #3e2f7a);
 }
 
 footer .footer__text {
