@@ -731,6 +731,7 @@ header nav {
   width: 100%;
   height: 4rem;
   outline: none;
+  color:rgb(255, 255, 255, 1);
 }
 
 .contact .contact__content .right .contact__form input:focus {
@@ -742,7 +743,7 @@ header nav {
 }
 
 .contact .contact__content .right .contact__form textarea {
-  background: whitesmoke;
+  background-color: rgb(255 255 255 / 0.1);
   border: transparent;
   padding: 1rem;
   width: 100%;
@@ -751,6 +752,8 @@ header nav {
   resize: none;
   background-color: rgb(255 255 255/ 0.1);
   border-radius: 0.5rem;
+  color:rgb(255, 255, 255, 1);
+  text-transform: capitalize;
 }
 
 .contact .contact__content .right .contact__form .sendmsg {

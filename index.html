@@ -584,14 +584,20 @@
             </div>
           </div>
           <div class="right">
-            <form action="javascript:void(0)" class="contact__form">
-              <label for="name">Name:</label>
-              <input type="text" id="name" />
+            <form action="https://api.web3forms.com/submit" method="post" id="contact__form" class="contact__form">
+              <input type="hidden" name="access_key" value="b28a290d-d4a5-44eb-8604-e07fd84e4352">
+              <label for="fullname">Full Name:</label>
+              <input name="Full Name" minlength="4" type="text" id="name" placeholder="Eg. John Doe" required/>
               <label for="email">Email:</label>
-              <input type="email" id="email" />
+              <input name="Email" type="email" id="email" placeholder="Eg. johndoe@gmail.com" required/>
               <label for="msgbox">Message:</label>
-              <textarea name="msgbox" id="msgbox" cols="30" rows="10"></textarea>
-              <button class="sendmsg">Send Message</button>
+              <textarea name="Message" minlength="60" id="msgbox" cols="30" rows="10" placeholder="Please provide a brief description of your topic and any concerns you have." required></textarea>
+              <div id="captcha-container"></div>
+            <div>
+                <label for="captcha">What is <span id="num1"></span> + <span id="num2"></span>?</label>
+                <input type="number" id="captcha" required>
+            </div>
+              <button type="submit" class="sendmsg">Send Message</button>
             </form>
           </div>
         </div>
