@@ -431,7 +431,8 @@ header nav {
   flex-grow: 1;
   margin-bottom: 2rem;
   padding: 14px 0px;
-  border: 1px solid rgba(255, 255, 255, 0.6);
+  /* border: 1px solid rgba(255, 255, 255, 0.6); */
+  border: 1px solid rgb(54, 55, 73, 0.8);
 }
 
 .services__card:hover {
@@ -502,7 +503,8 @@ header nav {
   width: 200px;
   background: rgba(0, 0, 0, 0.6);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  /* border: 1px solid rgba(255, 255, 255, 0.4); */
+  border: 1px solid rgb(54, 55, 73, 0.8);
 }
 
 .skills__card:hover {
@@ -898,5 +900,57 @@ footer .footer__text {
 .skils__content:nth-child(8) {
   transition-delay: 1400ms;
 }
+
+/* Hero Animations */
+.hero__left h1 {
+  animation: fade 1s ease-in-out forwards 0.4s;
+  opacity: 0;
+}
+
+.hero__left p {
+  opacity: 0;
+  animation: fade 1s ease-in-out forwards 0.8s;
+}
+
+.hero__btn {
+  opacity: 0;
+  animation: fade 1s ease-in-out forwards 1.2s;
+}
+
+.hero__right {
+  opacity: 0;
+  animation: fade 1s ease-in-out forwards;
+}
+
+/* MD */
+@media (min-width: 768px) {
+  .hero__left p {
+    opacity: 0;
+    animation: fade 1s ease-in-out forwards 0.4s;
+  }
+
+  .hero__btn {
+    opacity: 0;
+    animation: fade 1s ease-in-out forwards 0.8s;
+  }
+
+  .hero__right {
+    opacity: 0;
+    animation: fade 1s ease-in-out forwards 1.2s;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 /* END */
