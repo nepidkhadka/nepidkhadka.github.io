@@ -2,12 +2,12 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import React from 'react'
-import { Facebook, Github, Linkedin, Twitter } from 'lucide-react'
+import { Facebook, Github, Linkedin } from 'lucide-react'
 import Link from 'next/link'
 
 const Hero = () => {
     return (
-        <div className="h-screen max-h-[900px] flex flex-col items-center justify-center text-center space-y-4 md:space-y-6">
+        <div className="h-[100dvh] max-h-[900px] flex flex-col items-center justify-center text-center space-y-4 md:space-y-6">
             <motion.div
                 initial={{ opacity: 0, scale: 0.6 }}
                 animate={{ opacity: 1, scale: 1 }}

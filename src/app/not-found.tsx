@@ -13,7 +13,7 @@ const NotFoundPage = () => {
             "Oops! It looks like you've stumbled upon a page that doesn't exist."
           }
         </p>
-        <p className="mb-4">Let's get you back on track:</p>
+        <p className="mb-4">{"Let's get you back on track"}</p>
         <Link href="/" className="underline">
           Go to Home Page
         </Link>
