@@ -15,8 +15,7 @@ const Navigation = () => {
 
     return (
         <>
-            <MobileNavigation state={mobilenav} setState={setmobilenav} />
-            <header className='fixed top-0 z-40 w-full backdrop-blur-md shadow-sm'>
+            <header className='fixed top-0 z-40 w-full backdrop-blur-md shadow-sm border-b'>
                 <CommonLayout className="flex items-center justify-between">
                     <Link href="/">
                         <Image src="/logo/logo.jpg" alt="logo" width={50} height={50} className='rounded-full h-10 w-10' />
@@ -41,6 +40,7 @@ const Navigation = () => {
                     </div>
                 </CommonLayout>
             </header>
+            <MobileNavigation state={mobilenav} setState={setmobilenav} />
         </>
     )
 }
