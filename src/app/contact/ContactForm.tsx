@@ -34,7 +34,7 @@ const ContactForm = () => {
 
     // Validate form fields
     const validateForm = () => {
-        let newErrors = { name: "", email: "", message: "", captcha: "" };
+        const newErrors = { name: "", email: "", message: "", captcha: "" };
         let isValid = true;
 
         if (!formData.name.trim()) {
