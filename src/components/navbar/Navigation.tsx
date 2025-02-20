@@ -3,7 +3,7 @@ import { navbar } from '@/data/navbar/navbar'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
-import CommonLayout from '../CommonLayout'
+import CommonLayout from '../layout/CommonLayout'
 import MobileNavigation from './MobileNavigation'
 import { usePathname } from 'next/navigation'
 import "@/app/globals.css"
