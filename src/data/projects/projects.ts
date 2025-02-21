@@ -42,7 +42,7 @@ export const projectsData = [
       "Cloudinary",
     ],
     githubLink: "",
-    liveLink: "https://cityeyewears.vercel.app",
+    liveLink: "https://city-eye-wears.vercel.app/",
     image: "/projects/city-eye-wears.png",
   },
   {
