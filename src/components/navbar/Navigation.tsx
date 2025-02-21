@@ -2,7 +2,7 @@
 import { navbar } from '@/data/navbar/navbar'
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import CommonLayout from '../layout/CommonLayout'
 import MobileNavigation from './MobileNavigation'
 import { usePathname } from 'next/navigation'
@@ -12,6 +12,14 @@ const Navigation = () => {
 
     const [mobilenav, setmobilenav] = useState(false);
     const pathname = usePathname();
+
+    useEffect(() => {
+        if (mobilenav) {
+            document.body.style.overflow = "hidden";
+        } else {
+            document.body.style.overflow = "auto";
+        }
+    }, [mobilenav])
 
     return (
         <>

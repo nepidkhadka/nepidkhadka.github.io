@@ -28,11 +28,14 @@ export const metadata: Metadata = {
     },
   },
 
+  verification: {
+    google: "95Z8ZotC5kMb0m6Bf9BsBvUz9mWF7NYl-tYAuLoC5ZI"
+  },
   openGraph: {
-    images: ["https://nepidkhadka.github.io/Images/hero_banner.png"],
+    images: ["https://nepidkhadka.github.io/hero/hero.png"],
   },
   twitter: {
-    images: ["https://nepidkhadka.github.io/Images/hero_banner.png"],
+    images: ["https://nepidkhadka.github.io/hero/hero.png"],
   },
 }
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
