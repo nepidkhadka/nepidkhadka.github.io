@@ -34,7 +34,13 @@ export const projectsData = [
       "A website for an eye clinic with an admin panel to manage appointments and products.",
     description:
       "Built a full-featured website for an eye clinic, integrating an admin panel for managing products, appointments, and patient messages. The platform offers a seamless experience for users, enabling them to browse available eyewear and book appointments online.",
-    techStack: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
+    techStack: [
+      "Next.js",
+      "Framer Motion",
+      "MongoDB",
+      "Tailwind CSS",
+      "Cloudinary",
+    ],
     githubLink: "",
     liveLink: "https://cityeyewears.vercel.app",
     image: "/projects/city-eye-wears.png",
@@ -45,7 +51,7 @@ export const projectsData = [
       "A school website providing easy access to programs, admissions, and events.",
     description:
       "Designed and developed the official website for Little Star School, featuring an intuitive layout for students and parents to explore academic programs, admissions, events, and news updates. The platform ensures easy navigation and accessibility for the school community.",
-    techStack: ["WordPress", "Elementor", "PHP"],
+    techStack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     githubLink: "",
     liveLink: "https://littlestarschool.com",
     image: "/projects/little-star-school.png",
@@ -56,7 +62,7 @@ export const projectsData = [
       "A modern website for a non-profit organization, showcasing its mission and events.",
     description:
       "Designed and developed an engaging website for Ladies Circle Nepal, a non-profit organization dedicated to community service. The platform highlights the organization's mission, past events, and member information, increasing outreach and engagement.",
-    techStack: ["Next.js", "Tailwind CSS", "Sanity CMS"],
+    techStack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     githubLink: "",
     liveLink: "https://ladiescirclenepal.org",
     image: "/projects/ladies-circle-nepal.png",
@@ -67,7 +73,7 @@ export const projectsData = [
       "A restaurant website showcasing its menu, services, and special offers.",
     description:
       "Built a visually engaging website for Chef India Alkmaar, a restaurant focused on delivering an immersive dining experience. The website showcases the menu, highlights restaurant services, and provides an effortless browsing experience for customers looking for special offers and dining options.",
-    techStack: ["React", "Tailwind CSS", "Next.js"],
+    techStack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     githubLink: "",
     liveLink: "https://chef-india-alkmaar.com",
     image: "/projects/chef-india-alkmaar.png",
@@ -78,7 +84,7 @@ export const projectsData = [
       "A consulting firm's website, enhancing service visibility and client engagement.",
     description:
       "Developed an intuitive website for Easy Trade & Investment, highlighting core services and improving user accessibility. The platform enables clients to explore advisory and business improvement solutions, streamlining engagement and communication.",
-    techStack: ["React", "Tailwind CSS", "Strapi"],
+    techStack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     githubLink: "",
     liveLink: "https://easytradeandinvestment.com/",
     image: "/projects/easy-trade-investment.png",
