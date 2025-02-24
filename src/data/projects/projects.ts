@@ -64,7 +64,7 @@ export const projectsData = [
       "Designed and developed an engaging website for Ladies Circle Nepal, a non-profit organization dedicated to community service. The platform highlights the organization's mission, past events, and member information, increasing outreach and engagement.",
     techStack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     githubLink: "",
-    liveLink: "https://ladiescirclenepal.org",
+    liveLink: "https://ladiescirclenepal.org.np/",
     image: "/projects/ladies-circle-nepal.png",
   },
   {
