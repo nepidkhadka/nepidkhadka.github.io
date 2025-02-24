@@ -53,7 +53,7 @@ export const projectsData = [
       "Designed and developed the official website for Little Star School, featuring an intuitive layout for students and parents to explore academic programs, admissions, events, and news updates. The platform ensures easy navigation and accessibility for the school community.",
     techStack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     githubLink: "",
-    liveLink: "https://littlestarschool.com",
+    liveLink: "https://littlestarschool.edu.np/",
     image: "/projects/little-star-school.png",
   },
   {
@@ -75,7 +75,7 @@ export const projectsData = [
       "Built a visually engaging website for Chef India Alkmaar, a restaurant focused on delivering an immersive dining experience. The website showcases the menu, highlights restaurant services, and provides an effortless browsing experience for customers looking for special offers and dining options.",
     techStack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     githubLink: "",
-    liveLink: "https://chef-india-alkmaar.com",
+    liveLink: "https://chefindiaalkmaar.nl/",
     image: "/projects/chef-india-alkmaar.png",
   },
   {
@@ -97,7 +97,7 @@ export const projectsData = [
       "Created a visually appealing landing page using HTML, CSS, and JavaScript. The page effectively showcases products, integrates testimonials, and ensures a seamless user experience with an aesthetically pleasing design.",
     techStack: ["HTML", "CSS", "JavaScript"],
     githubLink: "",
-    liveLink: "#",
+    liveLink: "https://nepidkhadka.github.io/Catalog/",
     image: "/projects/catalog.png",
   },
   {
@@ -108,7 +108,7 @@ export const projectsData = [
       "Developed a movie ticket booking web app with a clean and responsive UI using React and Tailwind CSS. The platform integrates APIs for real-time movie data and ensures accurate form validation with Formik and Yup, delivering an effortless booking experience.",
     techStack: ["React", "Tailwind CSS", "Formik", "Yup"],
     githubLink: "",
-    liveLink: "#",
+    liveLink: "https://tick-ticketing-nine.vercel.app/",
     image: "/projects/ticketing.png",
   },
   {
@@ -119,7 +119,7 @@ export const projectsData = [
       "Built a feature-rich movie platform using React and Firebase for secure authentication. The platform integrates real-time movie data through dynamic API calls and includes a 'favorite' feature for enhanced user interaction.",
     techStack: ["React", "Firebase", "Tailwind CSS"],
     githubLink: "",
-    liveLink: "#",
+    liveLink: "https://cinemago.vercel.app/",
     image: "/projects/cinema-go.png",
   },
 ];
