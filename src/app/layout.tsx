@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
 
   verification: {
-    google: "kb29QRZhS3UF1JlZgnt3kRd5h1ZstTq9EkHvfd"
+    google: "95Z8ZotC5kMb0m6Bf9BsBvUz9mWF7NYl-tYAuLoC5ZI"
   },
   openGraph: {
     images: ["https://nepidkhadka.github.io/hero/hero.png"],
