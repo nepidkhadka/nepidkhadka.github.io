@@ -1,32 +1,14 @@
 export const projectsData = [
-  // {
-  //   title: "Metalogic",
-  //   shortDescription:
-  //     "Revamped the official website with a modern, user-friendly design.",
-  //   description:
-  //     "Redesigned the official website of Metalogic Software Pvt. Ltd. with a clean and modern layout, making it easier for users to explore products, services, career opportunities, blog posts, and partnerships.",
-  //   techStack: ["React", "Tailwind CSS", "Next.js"],
-  //   githubLink: "#",
-  //   liveLink: "https://metalogic.com",
-  //   image: "/projects/metalogic.png",
-  // },
   {
-    title: "Job Portal",
+    title: "Metalogic",
     shortDescription:
-      "A MERN stack job portal with authentication, resume uploads, and job listings.",
-    description: `A platform built using the MERN stack (MongoDB, Express, React, Node.js). Implemented user authentication for students and recruiters, resume uploads via Cloudinary, interactive job listings, and a responsive UI.`,
-    techStack: [
-      "React",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "Redux",
-      "RTK Query",
-      "Cloudinary",
-    ],
-    githubLink: "https://github.com/nepidkhadka/JobPortal",
-    liveLink: "https://jobportal-frontend-puak.onrender.com/",
-    image: "/projects/job-portal.png",
+      "Revamped the official website with a modern, user-friendly design.",
+    description:
+      "Redesigned the official website of Metalogic Software Pvt. Ltd. with a clean and modern layout, making it easier for users to explore products, services, career opportunities, blog posts, and partnerships.",
+    techStack: ["React", "Tailwind CSS", "Next.js"],
+    githubLink: "#",
+    liveLink: "https://metalogic.com.np",
+    image: "/projects/metalogic.png",
   },
   {
     title: "City Eye Wears",
@@ -44,6 +26,24 @@ export const projectsData = [
     githubLink: "",
     liveLink: "http://cityeyewears.com/",
     image: "/projects/city-eye-wears.png",
+  },
+  {
+    title: "Job Portal",
+    shortDescription:
+      "A MERN stack job portal with authentication, resume uploads, and job listings.",
+    description: `A platform built using the MERN stack (MongoDB, Express, React, Node.js). Implemented user authentication for students and recruiters, resume uploads via Cloudinary, interactive job listings, and a responsive UI.`,
+    techStack: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Redux",
+      "RTK Query",
+      "Cloudinary",
+    ],
+    githubLink: "https://github.com/nepidkhadka/JobPortal",
+    liveLink: "https://jobportal-frontend-puak.onrender.com/",
+    image: "/projects/job-portal.png",
   },
   {
     title: "Little Star School",
