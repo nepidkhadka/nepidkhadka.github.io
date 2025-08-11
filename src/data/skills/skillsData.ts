@@ -17,6 +17,7 @@ export const techStack = [
       "React Query",
       "React Hook Form",
       "Zod",
+      "Zustand",
     ],
   },
   {
