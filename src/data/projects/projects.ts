@@ -1,5 +1,16 @@
 export const projectsData = [
   {
+    title: "Playmitra",
+    shortDescription:
+      "A booking system for Nepal's futsal courts, featuring protected team slots",
+    description:
+      "PlayMitra gives Nepal's futsal courts a real booking system — with protected regular team slots, digital payments, and the PlayVote match coordination system that makes every game run the way it should.",
+    techStack: ["Next.js", "Tailwind", "HeroUI"],
+    githubLink: "#",
+    liveLink: "https://www.playmitra.com.np",
+    image: "/projects/playmitra.jpg",
+  },
+  {
     title: "Metalogic",
     shortDescription:
       "Revamped the official website with a modern, user-friendly design.",
