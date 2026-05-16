@@ -4,27 +4,21 @@ import { Metadata } from "next";
 import PageHeading from "@/components/PageHeading";
 import { aboutsHeadingData } from "@/data/heading/PageHeading";
 
-export const metadata: Metadata = {
-  metadataBase: new URL("https://nepidkhadka.github.io/about"),
-  title: "About Me",
-  description:
-    "A passionate Full-Stack Developer from Nepal, dedicated to crafting modern, scalable web applications. I enjoy designing and developing intuitive user-friendly applications. Open to collaborations, freelance projects, and opportunities!",
-  keywords:
-    "HTML, CSS, JavaScript, Tailwind CSS, React.js, Next.js, Express.js, Node.js, Web Design, Web Development, Full-Stack Development, Frontend Development, Backend Development, Responsive Web Design",
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-    },
-  },
+const description =
+  "Full-Stack Developer from Nepal focused on shipping modern, scalable web applications. Open to collaborations, freelance work, and full-time roles.";
 
+export const metadata: Metadata = {
+  title: "About",
+  description,
+  alternates: { canonical: "/about" },
   openGraph: {
-    images: ["https://nepidkhadka.github.io/Images/hero_banner.png"],
+    title: "About | Dipen Khadka",
+    description,
+    url: "/about",
   },
   twitter: {
-    images: ["https://nepidkhadka.github.io/Images/hero_banner.png"],
+    title: "About | Dipen Khadka",
+    description,
   },
 };
 

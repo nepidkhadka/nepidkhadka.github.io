@@ -5,27 +5,21 @@ import React from "react";
 import ContactForm from "./ContactForm";
 import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  metadataBase: new URL("https://nepidkhadka.github.io/contact"),
-  title: "Contact",
-  description:
-    "Get in touch with me for collaborations, freelance projects, or any queries. I am always open to new opportunities and challenges. Feel free to reach out to me via email or the contact form below.",
-  keywords:
-    "HTML, CSS, JavaScript, Tailwind CSS, React.js, Next.js, Express.js, Node.js, Web Design, Web Development, Full-Stack Development, Frontend Development, Backend Development, Responsive Web Design",
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-    },
-  },
+const description =
+  "Have an idea, a role, or a project in mind? Reach out via the contact form and I'll get back to you soon.";
 
+export const metadata: Metadata = {
+  title: "Contact",
+  description,
+  alternates: { canonical: "/contact" },
   openGraph: {
-    images: ["https://nepidkhadka.github.io/Images/hero_banner.png"],
+    title: "Contact | Dipen Khadka",
+    description,
+    url: "/contact",
   },
   twitter: {
-    images: ["https://nepidkhadka.github.io/Images/hero_banner.png"],
+    title: "Contact | Dipen Khadka",
+    description,
   },
 };
 

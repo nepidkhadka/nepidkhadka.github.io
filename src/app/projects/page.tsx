@@ -4,27 +4,21 @@ import { projectsHeadingData } from "@/data/heading/PageHeading";
 import { Metadata } from "next";
 import ProjectsCard from "./Projects";
 
-export const metadata: Metadata = {
-  metadataBase: new URL("https://nepidkhadka.github.io/projects"),
-  title: "Projects",
-  description:
-    "A collection of projects I've worked on, showcasing my skills and creativity. Each project is a unique opportunity to learn and grow, and I'm excited to share them with you.",
-  keywords:
-    "HTML, CSS, JavaScript, Tailwind CSS, React.js, Next.js, Express.js, Node.js, Web Design, Web Development, Full-Stack Development, Frontend Development, Backend Development, Responsive Web Design",
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-    },
-  },
+const description =
+  "A selection of things I've built — production apps, client websites, and side projects spanning React, Next.js, and the MERN stack.";
 
+export const metadata: Metadata = {
+  title: "Projects",
+  description,
+  alternates: { canonical: "/projects" },
   openGraph: {
-    images: ["https://nepidkhadka.github.io/Images/hero_banner.png"],
+    title: "Projects | Dipen Khadka",
+    description,
+    url: "/projects",
   },
   twitter: {
-    images: ["https://nepidkhadka.github.io/Images/hero_banner.png"],
+    title: "Projects | Dipen Khadka",
+    description,
   },
 };
 

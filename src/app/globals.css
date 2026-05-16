@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -29,6 +30,7 @@
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
+
   .dark {
     --background: 0 0% 3.9%;
     --foreground: 0 0% 98%;
@@ -61,11 +63,38 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground font-jakarta;
   }
 }
 
-.active {
-  color: var(--color-white);
+.nav-link {
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  height: 2px;
+  width: 40%;
+  background-color: hsl(var(--primary));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+}
+
+.nav-link:hover {
+  color: hsl(var(--foreground));
+}
+
+.nav-link.active {
+  color: hsl(var(--foreground));
+}
+
+.nav-link.active::after {
+  transform: scaleX(1);
 }

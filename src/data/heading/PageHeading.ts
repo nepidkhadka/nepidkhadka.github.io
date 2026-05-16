@@ -1,23 +1,27 @@
-export const skillsHeadingData = {
+export const skillsHeadingData: pageHeadingType = {
+  eyebrow: "What I work with",
   title: "Skills & Technologies",
   description:
-    "A collection of technologies and tools I specialize in, ranging from frontend frameworks to backend development. I continuously explore new technologies to enhance my skill set and build efficient, scalable applications.",
+    "Tools and technologies I rely on day to day — from building responsive interfaces to designing dependable backends. Always learning, always shipping.",
 };
 
-export const aboutsHeadingData = {
+export const aboutsHeadingData: pageHeadingType = {
+  eyebrow: "Get to know me",
   title: "About Me",
   description:
-    "A passionate Full-Stack Developer from Nepal, dedicated to crafting modern, scalable web applications. I enjoy designing and developing intuitive user-friendly applications. Open to collaborations, freelance projects, and opportunities!",
+    "A Full-Stack Developer from Nepal building modern, scalable web applications. I care about clean code, thoughtful UX, and shipping work that holds up in production.",
 };
 
-export const projectsHeadingData = {
+export const projectsHeadingData: pageHeadingType = {
+  eyebrow: "Selected work",
   title: "Projects",
   description:
-    "A collection of projects I've worked on, showcasing my skills and creativity. Each project is a unique opportunity to learn and grow, and I'm excited to share them with you.",
+    "A selection of things I've built — production apps, client websites, and side projects. Each one taught me something I now bring to the next.",
 };
 
-export const contactHeadingData = {
-  title: "Contact Me",
+export const contactHeadingData: pageHeadingType = {
+  eyebrow: "Let's talk",
+  title: "Get in Touch",
   description:
-    "I'm always open to new opportunities, collaborations, and projects. Feel free to reach out to me, and I'll get back to you as soon as possible.",
+    "Have an idea, a role, or a project in mind? Drop a message and I'll get back to you soon.",
 };

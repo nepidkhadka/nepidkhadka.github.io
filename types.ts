@@ -1,4 +1,5 @@
 type pageHeadingType = {
+  eyebrow?: string;
   title: string;
   description: string;
 };

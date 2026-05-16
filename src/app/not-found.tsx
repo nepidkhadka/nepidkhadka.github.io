@@ -1,21 +1,27 @@
-import React from "react";
 import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
 
 const NotFoundPage = () => {
   return (
-    <div className="flex h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold text-primary">
-          404 - Page Not Found
+    <div className="flex min-h-[100dvh] items-center justify-center bg-background px-4">
+      <div className="text-center max-w-md">
+        <p className="text-7xl md:text-8xl font-bold text-primary/20 tracking-tighter">
+          404
+        </p>
+        <h1 className="mt-2 text-2xl md:text-3xl font-bold text-foreground">
+          Page Not Found
         </h1>
-        <p className="mb-4">
+        <p className="mt-3 text-muted-foreground">
           {
-            "Oops! It looks like you've stumbled upon a page that doesn't exist."
+            "Oops! It looks like you've stumbled upon a page that doesn't exist. Let's get you back on track."
           }
         </p>
-        <p className="mb-4">{"Let's get you back on track"}</p>
-        <Link href="/" className="underline">
-          Go to Home Page
+        <Link
+          href="/"
+          className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-all hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+        >
+          <ArrowLeft className="h-4 w-4" />
+          Back to Home
         </Link>
       </div>
     </div>

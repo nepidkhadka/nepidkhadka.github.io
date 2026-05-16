@@ -4,27 +4,21 @@ import PageSectionTop from "@/components/layout/PageSectionTop";
 import { skillsHeadingData } from "@/data/heading/PageHeading";
 import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  metadataBase: new URL("https://nepidkhadka.github.io/skills"),
-  title: "Skills",
-  description:
-    "A collection of technologies and tools I specialize in, ranging from frontend frameworks to backend development. I continuously explore new technologies to enhance my skill set and build efficient, scalable applications.",
-  keywords:
-    "HTML, CSS, JavaScript, Tailwind CSS, React.js, Next.js, Express.js, Node.js, Web Design, Web Development, Full-Stack Development, Frontend Development, Backend Development, Responsive Web Design",
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-    },
-  },
+const description =
+  "Tools and technologies I rely on day to day — from frontend frameworks like React and Next.js to backend stacks with Node.js, Express, and MongoDB.";
 
+export const metadata: Metadata = {
+  title: "Skills",
+  description,
+  alternates: { canonical: "/skills" },
   openGraph: {
-    images: ["https://nepidkhadka.github.io/hero/hero.png"],
+    title: "Skills | Dipen Khadka",
+    description,
+    url: "/skills",
   },
   twitter: {
-    images: ["https://nepidkhadka.github.io/hero/hero.png"],
+    title: "Skills | Dipen Khadka",
+    description,
   },
 };
 
