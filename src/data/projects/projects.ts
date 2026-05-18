@@ -5,10 +5,21 @@ export const projectsData = [
       "A booking system for Nepal's futsal courts, featuring protected team slots",
     description:
       "PlayMitra gives Nepal's futsal courts a real booking system — with protected regular team slots, digital payments, and the PlayVote match coordination system that makes every game run the way it should.",
-    techStack: ["Next.js", "Tailwind", "HeroUI"],
+    techStack: ["Next.js", "Tailwind", "HeroUI", "Typescript"],
     githubLink: "#",
     liveLink: "https://www.playmitra.com.np",
     image: "/projects/playmitra.jpg",
+  },
+  {
+    title: "Eyaatri",
+    shortDescription:
+      "A travel booking platform that makes planning trips effortless and exciting",
+    description:
+      "Eyaatri is an travel booking platform designed to simplify how you plan and book trips — discover destinations, compare prices, and book with confidence, all in one place. Built to help you travel smarter.",
+    techStack: ["Next.js", "Tailwind", "Shadcn UI", "Typescript"],
+    githubLink: "#",
+    liveLink: "https://eyaatri.com",
+    image: "/projects/eyaatri.png",
   },
   {
     title: "Metalogic",
@@ -16,7 +27,13 @@ export const projectsData = [
       "Revamped the official website with a modern, user-friendly design.",
     description:
       "Redesigned the official website of Metalogic Software Pvt. Ltd. with a clean and modern layout, making it easier for users to explore products, services, career opportunities, blog posts, and partnerships.",
-    techStack: ["React", "Tailwind CSS", "Next.js"],
+    techStack: [
+      "React",
+      "Tailwind CSS",
+      "Next.js",
+      "Typescript",
+      "Framer Motion",
+    ],
     githubLink: "#",
     liveLink: "https://metalogic.com.np",
     image: "/projects/metalogic.png",
