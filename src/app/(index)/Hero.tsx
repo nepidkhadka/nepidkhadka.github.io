@@ -7,8 +7,16 @@ import Link from "next/link";
 
 const socials = [
   { href: "https://github.com/nepidkhadka", label: "GitHub", Icon: Github },
-  { href: "https://www.linkedin.com/in/nepidkhadka/", label: "LinkedIn", Icon: Linkedin },
-  { href: "https://www.facebook.com/nepidkhadka", label: "Facebook", Icon: Facebook },
+  {
+    href: "https://www.linkedin.com/in/nepidkhadka/",
+    label: "LinkedIn",
+    Icon: Linkedin,
+  },
+  {
+    href: "https://www.facebook.com/nepidkhadka",
+    label: "Facebook",
+    Icon: Facebook,
+  },
 ];
 
 const NAME = ["DIPEN", "KHADKA"];
@@ -47,12 +55,12 @@ const Hero = () => {
           width={320}
           height={320}
           priority
-          className="h-48 w-48 xl:h-64 xl:w-64 2xl:h-80 2xl:w-80 rounded-full object-cover object-top"
+          className="h-40 w-40 md:h-55 md:w-55 xl:h-60 xl:w-60 2xl:h-70 2xl:w-70 rounded-full object-cover object-top"
         />
       </motion.div>
 
-      <div className="space-y-4 overflow-hidden">
-        <h1 className="text-4xl md:text-5xl font-bold tracking-widest flex items-center justify-center gap-4 flex-wrap">
+      <div className="space-y-2 lg:space-y-4 overflow-hidden">
+        <h1 className="text-4xl 2xl:text-5xl font-bold tracking-widest flex items-center justify-center gap-4 flex-wrap">
           {NAME.map((word, wIndex) => (
             <span key={wIndex} className="inline-flex">
               {word.split("").map((letter, lIndex) => (
@@ -84,7 +92,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1.4, ease: "backInOut" }}
-          className="text-lg max-w-lg mx-auto text-muted-foreground"
+          className="text-base lg:text-lg max-w-2xl mx-auto text-muted-foreground"
         >
           I specialize in building interactive web experiences, designing web
           applications, and bringing ideas to life with code.
