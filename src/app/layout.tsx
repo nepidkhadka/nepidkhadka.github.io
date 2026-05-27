@@ -78,6 +78,9 @@ export const metadata: Metadata = {
     shortcut: "/logo/logo.jpg",
     apple: "/logo/logo.jpg",
   },
+  verification: {
+    google: "95Z8ZotC5kMb0m6Bf9BsBvUz9mWF7NYl-tYAuLoC5ZI",
+  },
 };
 
 const personJsonLd = {
